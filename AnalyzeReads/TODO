@@ -1,1 +1,5 @@
 add Trimmomatic step and another fastqc afterward
+
+ideally, there'd just be an 'analyze_reads' command that takes a path; path contains .fastq files. after running, there's a folder containing fastq analysis, a folder containing reads trimmed with trimmomatic, and a folder containing fastq analysis of the trimmed reads.
+
+oh yeah also need a config file for trimmomatic args.
